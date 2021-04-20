@@ -1,0 +1,40 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-60{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 65vh;
+  margin:10vh auto ;
+  background-color: aqua;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+.container-img{
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+
+  background-color: azure;
+}
+.container-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+  width: 50%;
+  height:50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: burlywood;
+}
+.next, .prev{
+  width: 10%;
+  height: 10%;
+  background-color: black;
+ 
+}
