@@ -29,12 +29,10 @@ img{
   display: none;
 }
 .next, .prev{
-  width: 10%;
-  height: 10%;
+  width: 14px;
+  height: 16px;
 }
-.next i{
-  margin-left: 55px;
-}
+
 .container-icon{
   display: flex;
   flex-direction: row;
