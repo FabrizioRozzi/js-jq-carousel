@@ -21,6 +21,9 @@ body{
 
   background-color: azure;
 }
+.container-img img{
+  display: none;
+}
 .container-icon{
   display: flex;
   flex-direction: row;
@@ -37,4 +40,7 @@ body{
   height: 10%;
   background-color: black;
  
+}
+.active{
+  display:block;
 }
